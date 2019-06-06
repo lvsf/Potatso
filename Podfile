@@ -4,6 +4,7 @@ platform :ios, '9.0'
 use_frameworks!
 
 def library
+    pod 'Crashlytics', '~> 3.10.7'
     pod 'KissXML', '~> 5.2.2'
     pod 'ICSMainFramework', :path => "./Library/ICSMainFramework/"
     pod 'MMWormhole', '~> 2.0.0'
